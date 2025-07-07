@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezekiel Pencil Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Ezekiel Pencil Art</div>
+        <nav id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="menu-icon" id="menuIcon">&#9776;</div> <!-- Hamburger icon -->
+        
+    </header>
+
+    <section id="home" class="hero">
+
+        <div class="hero-details">
+
+            <h1 class="title">Welcome to Ezekiel Pencil Art</h1>
+            <p class="description"> Welcome to Ezekiel Pencil Art, where we give detailed artwork of any kind</p>
+            </div>
+        
+        <form action="https://formsubmit.co/greatgodezekiel123@gmail.com" method="POST" class="order-form">
+           <h2>Order Your Artwork</h2>
+            <label for="artType">Art Type:</label>
+            <select id="artType" name="Art Type" required>
+                 <option value="">-- Select --</option>
+                <option value="Digital Art">Digital Art</option>
+                <option value="Pencil Art">Pencil Art</option>
+                <option value="Pen Art">Pen Art</option>
+            </select>
+            
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="Quantity" min="1" required>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" name="Instructions" rows="4"  placeholder="Any special instructions"required></textarea>
+            <label for="Email">Email:</label>
+                <input type="email" id="email" name="email" rows="3" placeholder="Type your email"></textarea>
+                <!-- Disable Captcha -->
+                 <input type="hidden" name="_captcha" value="false">
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <img src="LOGO.png" alt="About Image">
+        <p>
+        I'm a passionate artist who expresses emotions and stories through colors, lines, and shapes. 
+            Explore my portfolio to discover unique digital and traditional artworks.
+             At Ezekiel Pencil Art we give detailed and premium artwork of any kind 
+             ranging from individual portraits to wedding portraits to birthday portraits and 
+            many more, we specailize on Pencil Art, Pen Art, Digital Art.
+             Ezekiel Pencil Art will give you the best.
+                               Contact us: 07043205587</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="ESTERMI.jpg" alt="Artwork 1">
+                <p>Pencil Portrait</p>
+            </div>
+            <div class="gallery-item">
+                <img src="PSTKUMUYI.png" alt="Artwork 2">
+                <p>Pencil Portrait</p>
+            </div>
+            <div class="gallery-item">
+                <img src="BRO DAN.png" alt="Artwork 3">
+                <p>Digital Portrait</p></div>
+                <div class="gallery-item">
+                <img src="IMAGINATIVE.jpg" alt="Artwork 1">
+                <p>Pen Portrait</p></div>
+                <div class="gallery-item">
+                <img src="SHINA.png" alt="Artwork 1">
+                <p>Pencil Portrait</p></div>
+                <div class="gallery-item">
+                <img src="SISTER OLY.png" alt="Artwork 1">
+                <p>Digital Portrait</p></div>
+                
+
+            
+            </div>
+            
+    </section>
+
+    <section id="reviews" class="reviews">
+        <h2>Customer Reviews</h2>
+        <form id="reviewForm" class="review-form">
+            <label for="reviewerName">Name:</label>
+            <input type="text" id="reviewerName" placeholder="Type your Full Name" required>
+
+            <label for="reviewText">Review:</label>
+            <textarea id="reviewText" rows="3" placeholder="Type your review" required></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+        <div id="reviewList" class="review-list"></div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formsubmit.co/greatgodezekiel123@gmail.com" method="POST" class="contact-form">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="Email" placeholder="Type your email"required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="Message" rows="4" placeholder="Type your message" required></textarea>
+            <!-- Disable Captcha -->
+                 <input type="hidden" name="_captcha" value="false">
+
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <b>Visit us at any social media platform:</b>
+        <div class="social-icons">
+            <a href="#"><img src="FACEBOOKMAIN.png" alt="Facebook"></a>
+            <a href="#"><img src="WHATSAPPMAIN.png" alt="Whatsapp"></a>
+            <a href="#"><img src="INSTAGRAMMAIN.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <footer>
+        <d>Ezekiel Pencil Art @ 2025 my Art portfolio.</d>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
